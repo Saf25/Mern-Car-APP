@@ -1,0 +1,93 @@
+.nav {
+  position: absolute;
+  top: 0;
+  display: flex;
+  padding: 30px;
+  z-index: 1;
+  justify-content: space-between;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.986);
+  /* For Animations */
+  /* transition: all 0.5s; */
+}
+
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  object-fit: contain;
+  width: 200px;
+}
+
+.nav__container {
+  position: fixed;
+  object-fit: contain;
+  margin: 0px auto;
+  text-align: center;
+  right: 230px;
+  display: flex;
+
+  background-color: white;
+}
+
+.nav__container .nav__link {
+  text-decoration: none;
+  color: black;
+  font: 20px;
+  margin: 0px 10px;
+  padding: 10px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  font-family: cursive;
+  background-color: white;
+  font-size: xx-large;
+}
+
+.nav__borderXwidth a:before,
+.nav__borderXwidth a:after {
+  position: absolute;
+  opacity: 0;
+  width: 0%;
+  height: 5px;
+  content: "";
+  background: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.nav__borderXwidth a:before {
+  left: 0px;
+  top: 0px;
+}
+
+.nav__borderXwidth a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+.nav__borderXwidth a:hover:before,
+.nav__borderXwidth a:hover:after {
+  opacity: 1;
+  width: 100%;
+}
+
+.nav__scroll {
+  background-color: #69bd25;
+}
+
+.nav__container .nav__linkscroll {
+  color: white;
+  background-color: #6fc727;
+}
+
+.nav__containerscroll {
+  background-color: #6fc727;
+}
+
+.nav__borderXwidthscroll a:before,
+.nav__borderXwidthscroll a:after {
+  background-color: white;
+}
+#id {
+  position: fixed;
+}

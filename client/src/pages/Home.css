@@ -1,0 +1,93 @@
+.bg-bg {
+  background-image: url(https://exergyengineering.files.wordpress.com/2021/03/german-cars.jpg);
+
+  background-repeat: no-repeat;
+  padding-top: 20px;
+  padding-left: 320px;
+  height: 1000px;
+}
+.container {
+  position: absolute;
+  padding-top: 200px;
+  margin-left: 320px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.pos {
+  position: absolute;
+  padding-top: 600px;
+  margin-left: 320px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.pos1 {
+  position: absolute;
+  padding-top: 650px;
+  margin-left: 350px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.pos2 {
+  position: absolute;
+  padding-top: 700px;
+  margin-left: 370px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.pos3 {
+  position: absolute;
+  padding-top: 750px;
+  margin-left: 390px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+@keyframes NO {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}

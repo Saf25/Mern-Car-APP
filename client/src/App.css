@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.contact {
+  display: center;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.h1 {
+  padding-top: 100px;
+  font-family: cursive;
+}
+.span {
+  color: blue;
+}
+.n {
+  display: flexbox;
+  justify-content: flex-start;
+  color: aliceblue;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c {
+  text-align: center;
+  padding-top: 130px;
+  font-family: fantasy;
+}
+.lbl {
+  font-style: italic;
+  font-family: fantasy;
+}
+.center {
+  display: center;
+  text-align: center;
+}
+.clr {
+  background-color: grey;
+  text-align: justify;
+}
+.top {
+  padding-top: 200px;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+.width {
+  width: 410px;
+  background-color: #000;
+  color: white;
+  border-radius: 20px;
+}
+.width1 {
+  width: 410px;
+  background-color: rgb(175, 172, 172);
+  color: rgb(8, 1, 1);
+  border-radius: 20px;
+  text-align: center;
+}
+.ml {
+  margin-left: 30px;
+}
+.width3 {
+  width: 410px;
+  margin-left: 40px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  text-align: center;
+}
+.top1 {
+  padding-top: 50px;
+}
+.top2 {
+  padding-top: 0px;
+  text-align: center;
+}
+.top3 {
+  padding-top: 120px;
+}
+@keyframes NO {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+.centerp {
+  display: center;
+  text-align: center;
+  padding-top: 10px;
+  font-family: cursive;
+  font-size: xx-large;
+  color: white;
+}
+.centern {
+  display: center;
+  text-align: center;
+  padding-top: 10px;
+  font-family: cursive;
+  color: white;
+}
+.centerx {
+  display: center;
+  text-align: center;
+  font-family: cursive;
+  position: relative;
+  font-weight: bolder;
+  left: 47%;
+  top: 10px;
+}
+.centerx:hover {
+  color: red;
+}
+#mrg {
+  margin-top: 5px;
+  border-radius: 20%;
+}
+.bg {
+  background-image: url(https://previews.123rf.com/images/nosua/nosua1710/nosua171000369/88191754-%E9%96%8B%E3%81%8B%E3%82%8C%E3%81%9F%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%BC%E3%81%AE%E3%83%89%E3%82%A2%E3%81%AE-3-d-%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%82%AC%E3%83%AC%E3%83%BC%E3%82%B8-3-d-%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AA%E3%82%A2%E3%81%AE%E6%AD%A3%E9%9D%A2%E5%9B%B3.jpg);
+  height: 1000px;
+}
+.btw {
+  margin-right: 100px;
+}
+
+.btw:hover {
+  box-shadow: 0 10px 20px rgba(255, 24, 24, 0.8);
+}
+.lobster {
+  font-family: lobster;
+}
+.shdw {
+  box-shadow: 0 10px 20px rgb(168, 2, 2);
+  border-radius: 20px;
+}

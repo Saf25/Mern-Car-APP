@@ -1,0 +1,233 @@
+.calendar {
+  position: absolute;
+  width: 600px;
+  background-color: rgb(253, 1, 1);
+  box-sizing: border-box;
+  box-shadow: 0 5px 50px rgba(rgb(235, 30, 30), 1.5);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: center;
+}
+
+.calendarh:hover {
+  color: red;
+}
+.calendarh {
+  position: relative;
+  justify-content: center;
+  left: 500px;
+  top: -30px;
+}
+.calendar__picture {
+  position: relative;
+  left: 500px;
+  top: -30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  color: #fff;
+  background: #262626
+    url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=183f2924ba5a8429441804609b2d4f61")
+    no-repeat center / cover;
+  text-shadow: 0 2px 2px rgba(#000, 0.2);
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to top, rgba(#000, 0.25), rgba(#000, 0.1));
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: 500;
+  }
+}
+.cc {
+  position: absolute;
+  z-index: 10 !important;
+  width: 100%;
+  height: 100%;
+  top: 120px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=183f2924ba5a8429441804609b2d4f61")
+    no-repeat center / cover;
+
+  &::after {
+    content: "";
+
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inheri;
+    filter: blur(10px);
+  }
+}
+.font {
+  color: rgb(252, 252, 252);
+  margin-bottom: 15px;
+  margin-right: 120px;
+}
+.color {
+  font-size: larger;
+  background-color: brown;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 270px;
+  border-radius: 20px;
+}
+.top4 {
+  padding-bottom: 200px;
+  padding-right: 250px;
+}
+.top5 {
+  background-color: black;
+  border-radius: 10px;
+  width: 500px;
+}
+.color1 {
+  font-size: 30px;
+  color: rgba(253, 253, 253, 0.788);
+  border-radius: 5px;
+  display: inline-flex;
+  left: 1100px;
+  top: 350px;
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+}
+.block {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  margin-right: 50px;
+}
+.input {
+  margin-left: 100px;
+}
+.hold {
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;
+  font-size: large;
+}
+.hold1 {
+  margin-left: 80px;
+}
+.pos {
+  padding-right: 10px;
+}
+@keyframes NO {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes arrive {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+.abs {
+  position: absolute;
+  z-index: 5;
+}
+.center {
+  display: center;
+}
+.sb {
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+}
+.u {
+  margin-top: 100px;
+}
+.confirm {
+  position: relative;
+  bottom: 450px;
+  left: 1400px;
+  border-radius: 10%;
+  max-width: 385px;
+  height: 200px;
+  padding-top: 10px;
+  font-family: cursive;
+  font-size: 20px;
+}
+#anim {
+  animation-name: opacity;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  font-size: 30px;
+}
+@keyframes opacity {
+  0% {
+    color: white;
+    opacity: 0.5;
+  }
+  50% {
+    color: white;
+    opacity: 0.8;
+  }
+  100% {
+    color: white;
+    opacity: 1;
+  }
+}
