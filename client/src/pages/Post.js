@@ -28,7 +28,6 @@ const Post = () => {
         </p>
       )}
       {postList !== [] && loading && <p>loading...</p>}
-      {errors && <p>{errors.msg}</p>}
 
       <h4 className="centerp lobster">Welcome {userInfo.name}</h4>
       {postList !== [] && (
